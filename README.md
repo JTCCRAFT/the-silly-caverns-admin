@@ -1,5 +1,5 @@
-mreow :3c<br>
-no i dont know how anything works in this<br>
-have fun!<br>
-make pull requests if u want<br>
-pls just credit me<br>
+What's changed:
+Admin commands have been reformatted (you can still use old ones)
+All custom console commands are now in a object (old ones are still outside)
+Cateye button.
+A lot more!
