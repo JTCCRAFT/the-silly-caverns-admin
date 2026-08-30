@@ -89,6 +89,13 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#cateyebutton2026 span{
+    background: linear-gradient(to right, #00b3ff, #ea00ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #extremeEcholocator span{
     background: linear-gradient(to right, #70E3FF, 65%, #2BFF00);
     -webkit-background-clip: text;
