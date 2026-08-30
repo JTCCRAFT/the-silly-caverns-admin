@@ -1,5 +1,4 @@
 const adminGiveOres = function(block, amt) {
-if (debug) {
     if (amt === undefined)
         amt = 100;
     if (block === undefined) {
@@ -12,53 +11,36 @@ if (debug) {
         playerInventory[block]["normalAmt"] += amt;
         inventoryObj[block] = 0;
     }
-} else {
-    window.alert("INSUFFICIENT PERMISSIONS")
-}
 }
 const adminGivePickaxe = function(num) {
-if (debug) {
     if (num === undefined) {
         for (let pickaxe in player.pickaxes) player.pickaxes[pickaxe] = true;
     } else {
         player.pickaxes[`pickaxe${num}`] = true;
     }
-} else {
-    window.alert("INSUFFICIENT PERMISSIONS")
-}
 }
 const adminGiveGear = function(num) {
-if (debug) {
     if (num === undefined) {
         for (let gear in player.gears) player.gears[gear] = true;
     } else {
         player.gears[`gear${num}`] = true;
     }
-} else {
-    window.alert("INSUFFICIENT PERMISSIONS")
-}
 }
 const adminRemovePickaxe = function(num) {
-if (debug) {
     if (num === undefined) {
         for (let pickaxe in player.pickaxes) player.pickaxes[pickaxe] = false;
     } else {
         player.pickaxes[`pickaxe${num}`] = false;
     }
-} else {
-    window.alert("INSUFFICIENT PERMISSIONS")
-}
 }
 const adminRemoveGear = function(num) {
-if (debug) {
+
     if (num === undefined) {
         for (let gear in player.gears) player.gears[gear] = false;
     } else {
         player.gears[`gear${num}`] = false;
     }
-} else {
-    window.alert("INSUFFICIENT PERMISSIONS")
-}
+
 }
 let allGearNames = [
     "Ore Tracker",
@@ -92,7 +74,6 @@ let allGearNames = [
     "Celestian Reaper"
 ]
 const adminListNums = function() {
-    if (debug) {
     let output = "";
     for (let i = 0; i < allPickaxeNames.length; i++) {
         output += allPickaxeNames[i] + " " + (i+1) + "\n";
@@ -102,12 +83,8 @@ const adminListNums = function() {
         output += allGearNames[i] + " " + i + "\n";
     }
     console.log(output);
-    } else {
-        window.alert("INSUFFICIENT PERMISSIONS")
-    }
 }
 const adminGetHelp = function() {
-    if (debug) {
     console.log("adminGiveOres(block, amt) - Block is the block you want, enter undefined without quotes for all blocks, else put block in quotes. Amt is the amount, leave blank for 100.");
     console.log("adminGivePickaxe(num) - Num is the pickaxe you want to receive, leave blank for all.");
     console.log("adminRemovePickaxe(num) - Num is the pickaxe you want to delete, leave blank for all.");
@@ -115,17 +92,10 @@ const adminGetHelp = function() {
     console.log("adminRemoveGear(num) - Num is the gear you want to delete, leave blank for all.");
     console.log("adminListNums() - Lists all the numbers for specific pickaxes and gears.")
     console.log("adminChangeLuck(value) - Changes the luck used for block generation to the chosen value.")
-    } else {
-        window.alert("INSUFFICIENT PERMISSIONS")
-    }
 }
 const adminChangeLuck = function(value) {
-    if (debug) {
         cat = value;
         updateAllLayers()
-    } else {
-        window.alert("INSUFFICIENT PERMISSIONS")
-    }
 }
 const displayLarge = function() {
     if (confirm("PERFORMING THIS ACTION WILL REQUIRE YOU TO RESTART YOUR GAME AFTER")) {
@@ -160,9 +130,5 @@ const displayLarge = function() {
     }
 }
 const removeCooldowns = function() {
-    if (debug) {
         for (let cooldown in player.powerupCooldowns) player.powerupCooldowns[cooldown].cooldown = 0;
-    } else {
-        window.alert("INSUFFICIENT PERMISSIONS")
-    }
 }
