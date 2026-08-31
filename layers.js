@@ -1,6 +1,6 @@
 let oreList = {
-    '🐱': { 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  },
-    '✈️': { 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'THEY HIT THE PENTAGON😭😭😭', 'oreTier': 'Infinitesimal',  },
+    '🐱': { 'decimalRarity': 1 / 100000000, 'numRarity': 100000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  },
+    '✈️': { 'decimalRarity': 1 / 100000, 'numRarity': 100000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'THEY HIT THE PENTAGON😭😭😭', 'oreTier': 'Infinitesimal',  },
     '💗': { 'decimalRarity': 1 / 150000000000, 'numRarity': 150000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A distant pulse resonates with your heart, synchronising its beat with yours...', 'oreTier': 'Ethereal',  },
     '❤️‍🔥': { 'decimalRarity': 1 / 50000000000, 'numRarity': 50000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A compassionate warmth envelops your heart in a fiery yet comforting embrace...', 'oreTier': 'Sacred',  },
     '😻': { 'decimalRarity': 1 / 5000000005, 'numRarity': 5000000005, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'holy shit is this a real cat??', 'oreTier': 'Celestial',  },
@@ -556,7 +556,7 @@ let oreList = {
     '✖️': { 'decimalRarity': 1 / 1, 'numRarity': 1, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Layer',  },
     '❌': { 'decimalRarity': 1 / 1, 'numRarity': 1, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Layer',  },
     '🕳️': { 'decimalRarity': 1 / 1, 'numRarity': 1, 'hasLog': false,  'caveExclusive': true, 'spawnMessage': '', 'oreTier': 'Layer',  },
-    'bitcoin' : { 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': 'erm', 'oreTier': 'Common',  },
+    'bitcoin' : { 'decimalRarity': 1 / 5000, 'numRarity': 5000, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': 'erm', 'oreTier': 'Common',  },
     'Nyerd' : { 'decimalRarity': 1 / 450000000000, 'numRarity': 450000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': "you're a NYERD!!!", 'oreTier': 'Ethereal',  'hasImage' : true, "src" : "media/ores/NYERD.webp", "oreName" : "nyerd", "eId":"<:nyerd:1232461600087343156>"},
     'Fox' : { 'decimalRarity': 1 / 200000000000, 'numRarity': 200000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'what the fox is going on here!!', 'oreTier': 'Ethereal',  'hasImage' : true, "src" : "media/ores/STUPID_FOX.webp", "oreName" : "fox",},
     'Bismuth' : { 'decimalRarity': 1 / 830209019000, 'numRarity': 830209019000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A vibrant mineral is barely detected due to its nearly unnoticeable α-decay...', 'oreTier': 'Ethereal',  'hasImage' : true, "src" : "media/ores/bismuth.png", "oreName" : "Bismuth", "eId":"<:bismuth:1268369596268941313>"},
@@ -585,7 +585,7 @@ let oreList = {
     'pleiades':{ 'decimalRarity': 1 / 7500000000000000, 'numRarity': 7500000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A brilliant display of blue hues dance in the cosmos, providing a beautiful sight to all who stumble upon it...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/pleidas.webp", "oreName" : "Pleidas",},
     'noradrenaline':{ 'decimalRarity': 1 / 999999999999999999, 'numRarity': 999999999999999999, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A chill goes down your spine...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/noradrenaline.gif", "oreName" : "Noradrenaline",},
     /*gif credits: https://rex-reincarnated.fandom.com/wiki/Epinephrine*/
-    'singularityEgg':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/singularityegg.webp", "oreName" : "Singularity Egg",},
+    'singularityEgg':{ 'decimalRarity': 1 / 50000000000000000000000000000000000000, 'numRarity': 50000000000000000000000000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/singularityegg.webp", "oreName" : "Singularity Egg",},
     'orbOfLife':{ 'decimalRarity': 1 / 5000000000000000000, 'numRarity': 5000000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/ore3.gif", "oreName" : "Orb of Life",},
     'orbOfIntelligence':{ 'decimalRarity': 1 / 9750000000000000000, 'numRarity': 9750000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/ore4.gif", "oreName" : "Orb of Intelligence",},
     'orbOfSound':{ 'decimalRarity': 1 / 16850000000000000000, 'numRarity': 16850000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/ore5.gif", "oreName" : "Orb of Sound",},
@@ -596,19 +596,19 @@ let oreList = {
     'YourReward':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/thankyou.png", "oreName" : "Your Reward!",},
     'luna2':{ 'decimalRarity': 1 / 1000000000000000, 'numRarity': 1000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'crunchcrunchcrunchcrunchcrunchcrunchcrunchcrunchcrunchcrunchcrunchcrunchcrunch', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/luna2.gif", "oreName" : "Luna 2",},
     'Desolation':{ 'decimalRarity': 1 / 247000000423000000, 'numRarity': 247000000423000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A powerful and formidable force drags you into the emptiness of the great void...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/desolation.png", "oreName" : "Desolation",},
-    'Sakura':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/sakura.png", "oreName" : "Sakura",},
+    'Sakura':{ 'decimalRarity': 1 / 50000000000000000000000000000000, 'numRarity': 50000000000000000000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/sakura.png", "oreName" : "Sakura",},
     'Omniscient Clover':{ 'decimalRarity': 1 / 3450000000000000, 'numRarity': 3450000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A viridescent clover shines and floats, the luck itself materializes before your eyes...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/omniscientClover.png", "oreName" : "Omniscient Clover",},
     'Koreosensei':{ 'decimalRarity': 1 / 153454153454153454153, 'numRarity': 153454153454153454153, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'The tentacles asked him "what do you want to be?" and he answered "I want to be weak." He is now here to teach you the truth of the mines.', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/COREosensei.png", "oreName" : "Koreosensei",},
     'Saitamore':{ 'decimalRarity': 1 / 100100100010365001000, 'numRarity': 100100100010365001000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'Ok.', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/Saitamore.gif", "oreName" : "Saitamore",},
-    'Hyper':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/Hyper.png", "oreName" : "Hyper",},
+    'Hyper':{ 'decimalRarity': 1 / 10101010101011121090300902391032, 'numRarity': 10101010101011121090300902391032, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/Hyper.png", "oreName" : "Hyper",},
     'Panselinos':{ 'decimalRarity': 1 / 430000000000000000, 'numRarity': 430000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'Hidden away from astronomers for centuries, the envenomed planet comes into view at last...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/panselinos.png", "oreName" : "Panselinos",},
     'Real Scribbal':{ 'decimalRarity': 1 / 2000000000000000, 'numRarity': 2000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A figment of your imagination springs to life from inside your sketchbook...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/realScribbal.gif", "oreName" : "Real Scribbal",},
     'Temporalite':{ 'decimalRarity': 1 / 1000000000000000, 'numRarity': 1000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'As the day became the night, and the night to day, this was found in the centre of the anomaly...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/temporalite.png", "oreName" : "Temporalite",},
     'Chronomorph':{ 'decimalRarity': 1 / 4200000000000000000, 'numRarity': 4200000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'Beneath a forgotten city, an ancient clock tower ticks with unnatural precision, its gears controlling time itself…', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/chronomorph.png", "oreName" : "Chronomorph",},
     'Charybdis':{ 'decimalRarity': 1 / 1500000000000000, 'numRarity': 1500000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'A red planet shaped like the eye of a dragon is discovered, a breathtaking cosmic presence that defies all explanation...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/charybdis.png", "oreName" : "",},
     'cateye':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'The universal eye of a universal being chooses to spend its existence with you...', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/cateye.png", "oreName" : "CATEYE"},
-    'True Infinity':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'An incomprehensible thought appears before you in a recognizable shape...', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/trueInfinity.png", "oreName" : "True Infinity",},
-    'First Anniversary Cake':{ 'decimalRarity': 1 / Infinity, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/cakeeeeeee.png", "oreName" : "First Anniversary Cake",},
+    'True Infinity':{ 'decimalRarity': 1 / 1e308, 'numRarity': Infinity, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'An incomprehensible thought appears before you in a recognizable shape...', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/trueInfinity.png", "oreName" : "True Infinity",},
+    'First Anniversary Cake':{ 'decimalRarity': 1 / 1000000000000000000000000, 'numRarity': 1000000000000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/cakeeeeeee.png", "oreName" : "First Anniversary Cake",},
     'orbOfFlight':{ 'decimalRarity': 1 / 250000000000000000000, 'numRarity': 250000000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/ore6.gif", "oreName" : "Orb of Flight",},
     'orbOfFire':{ 'decimalRarity': 1 / 500000000000000000000, 'numRarity': 500000000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'meowww :3', 'oreTier': 'Polychromatical',  'hasImage' : true, "src" : "media/ores/ore7.gif", "oreName" : "Orb of Fire",},
     'Flaroreon':{ 'decimalRarity': 1 / (1920000000*1920000000), 'numRarity': 1920000000*1920000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'WHAT! NILNAL! I GOT NILNAL! I GOT NILNAL! I GOT NILNAL ! I GOT NILNAL! I GOT NILNAL! I GOT NILNAL! I GOT IT! I GOT NILNAL! I GOT NILNAL! I GOT NILNAL! OH MY GOD! OH MY GOD! OH MY GOD OH MY GODD BUAHHAHAHHAH! OH MY GODD!! I GOT NILNAL!', 'oreTier': 'Infinitesimal',  'hasImage' : true, "src" : "media/ores/Flaroreon.png", "oreName" : "Flaroreon",},
@@ -616,12 +616,13 @@ let oreList = {
     'Pasta':{ 'decimalRarity': 1 / 1000000000000000, 'numRarity': 1000000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'Something about pasta...', 'oreTier': 'Hyperdimensional',  'hasImage' : true, "src" : "media/ores/pasta.png", "oreName" : "Pasta",},
     'Star Core':{ 'decimalRarity': 1 / 950000000000000, 'numRarity': 950000000000000, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': "The gears spin and spin, generating the energy to make the star's radiant glow...", 'oreTier': 'Imaginary',  'hasImage' : true, "src" : "media/ores/starcore.png", "oreName" : "Star Core",},
     
-    "☯️" : { 'decimalRarity': 1 / 987656789, 'numRarity': 987656789, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'Through light and darkness, only one may guide you to the truth...', 'oreTier': 'Celestial',  },
+    "☯️" : { 'decimalRarity': 1 / 987656789, 'numRarity': 987656789, 'hasLog': true,  'caveExclusive': false, 'spawnMessage': 'Through light and darkness, only one may guide you to the end...', 'oreTier': 'Celestial',  },
     "⛏️": { 'decimalRarity': 1 / 10000000, 'numRarity': 10000000, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': 'Thoughts of what lies on the other side cloud your mind until.. a mirror image appears..?', 'oreTier': 'Celestial',  },
     "⚪": { 'decimalRarity': 1 / 1, 'numRarity': 1, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Common',  },
     "🟩": { 'decimalRarity': 1 / 1, 'numRarity': 1, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Layer',  },
     "🩶": { 'decimalRarity': 1 / 10000, 'numRarity': 10000, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Celestial',  },
-    "🩷": { 'decimalRarity': 1 / 10000, 'numRarity': 10000, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Celestial',  }
+    "🩷": { 'decimalRarity': 1 / 10000, 'numRarity': 10000, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': '', 'oreTier': 'Celestial',  },
+    "💀": { 'decimalRarity': 1 / 1000000, 'numRarity': 1000000, 'hasLog': false,  'caveExclusive': false, 'spawnMessage': "*You feel like you're gonna have a bad time", 'oreTier': 'Infinitesimal',  }
 }
 const playerInventory = {
     
@@ -635,21 +636,21 @@ const layerList = {
 "brickLayer" : ["sillyMiner", "🏯", "🏰", "🌇", "🥉", "🪞", "🔩", "🧲", "🪬", "🧨", "🔗", "🪙", "🗿", "🪚", "🪜", "🧱"],
 "foggyLayer" : ["sillyMiner", "🦚", "🚿", "👁️", "💸", "⌛", "🧵", "🕯️", "🕋", "🎨", "🎴", "🥽", "🪄", "🎭", "🌫️"],
 "waterLayer" : ["HD 160529", "sillyMiner", "⚓", "🐋", "💫", "🪩", "👿", "🌀", "🔱", "👑", "🐟", "🫧", "🤿", "🎣", "⛵", "🌊"],
-"rockLayer" : ["apatite", "Star Core", "sillyMiner", "variousMinerals", "🪤", "🏔️", "🌈", "🧊", "❄️", "💎", "☄️", "🔮", "🔋", "💍", "🥏", "⚜️", "💠", "🪨"],
+"rockLayer" : ["apatite", "Star Core", "sillyMiner", "variousMinerals", "🪤", "🏔️", "🌈", "🧊", "❄️", "💎", "☄️", "🔮", "🔋", "💍", "🥏", "⚜️", "💠", "🪨","💀"],
 "radioactiveLayer" : ["sillyMiner", "Bismuth", "🤖", "⚠️", "🎆", "🧀", "🌌", "🥀", "🎇", "🔳", "⏹️", "🧩", "🔔", "⚗️", "🧪", "☢️"],
-"cactusLayer" : ["sillyMiner", "🦴", "🐪", "🏵️", "🪐", "💥", "🔥", "🔆", "⭐", "🎀", "🗡️", "📟", "⚱️", "🖍️", "🌵", ],
+"cactusLayer" : ["sillyMiner", "🦴", "🐪", "🏵️", "🪐", "💥", "🔥", "🔆", "⭐", "🎀", "🗡️", "📟", "⚱️", "🖍️", "🌵"],
 "paperLayer" : ["Real Scribbal", "sillyMiner", "🎩", "💵", "🪅", "👀", "🌟", "📝", "⌚", "🗜️", "🏆", "🎲", "✂️", "🃏", "⚙️", "📰"],
 "giftLayer": ["sillyMiner", "🍭", "💽", "🛢️", "⚛️", "🗳️", "🎎", "📿", "🎑", "📢", "🚗", "🎫", "🎮", "🎁"],
 "worldOneCommons" : ["godOfTheMine", "🤍", "🖤", "🤎", "💜", "❤️", "🧡", "💛", "💙", "💚", "🔶", "🔷", "🔸", "🔹", "🔺", "🔻", "🔘", "🔲", "🟨", "🟦", "⬛", "⬜", "🧧", "◾", "◽", "⚫", "🟤", "🟣", "🔴", "🟠", "🟡", "🔵", "🟢", "🟪", "🟥", "🟧"],
-"sillyLayer" : ["ah!SoSorgy!", "Pasta", "sillyMiner", "UHD", "qrCode", "kaleidoscope", "🎉", "🧌", "Nyerd", "Fox", "♾️", "💅", "😁", "🪢", "🎂"],
+"sillyLayer" : ["ah!SoSorgy!", "Pasta", "sillyMiner", "UHD", "qrCode", "kaleidoscope", "🎉", "🧌", "Nyerd", "Fox", "♾️", "💅", "😁", "🪢", "🎂", "First Anniversary Cake"],
 "fluteLayer" : ["sillyMiner", "mushroomCats", "🫶", "🪈"],
 "cloudLayer" : ["TheHowlingMoon", "starglint", "sillyMiner",  "🪽", "⚡", "🍃", "🪶", "🌦️", "🌩️", "⛈️", "🪁", "🪂", "🌨️", "🌥️", "🌤️", "🌧️", "🎐", "☁️"],
 "cloudLayer2" : ["TheHowlingMoon", "🖐", "starglint", "sillyMiner",  "🪽", "⚡", "🍃", "🪶", "🌦️", "🌩️", "⛈️", "🪁", "🪂", "🌨️", "🌥️", "🌤️", "🌧️", "🎐", "☁️"],
 "tvLayer" : ["sillyMiner", "🔫", "👾", "🏹", "💣", "🔨", "🪓", "🪃", "🛡️", "📺"],
 "doorLayer" : ["Chronomorph", "sillyMiner", "🗝️", "🪝", "🪡", "🛎️", "🚧", "⛓️", "🔏", "🖇️", "🔑", "🔒", "🚪"],
-"globeLayer" : ["matrix", "sillyMiner", "💰", "💞", "💘", "🚽", "📽️", "🧂", "🔪", "💔", "🍆", "🖱️", "⌨️", "💻", "🌐"],
+"globeLayer" : ["matrix", "sillyMiner", "💰", "💞", "💘", "🚽", "📽️", "🧂", "🔪", "💔", "🍆", "🖱️", "⌨️", "💻", "🌐","bitcoin"],
 "chessLayer" : ["sillyMiner", "⚖️", "🌱", "🎓", "📍", "📌", "🔎", "🖊️", "📚", "📐", "📖", "🧠", "✏️", "♟️"],
-"barrierLayer" : ["❔",  "✴️", "✖️"],
+"barrierLayer" : ["❔", "✴️", "✖️"],
 "borderLayer" : ["sillyMiner", "🩸", "♨️", "🚫", "🔈", "⛔", "💢", "🔇", "🛑", "⭕", "🔕", "❌"],
 "worldTwoCommons" : ["Omniscient Clover", "🍀", "☘️", "📘", "📙", "📕", "📗", "⏏️", "▶️", "⏸️", "⏯️", "⏺️", "⏭️", "⏮️", "⏩", "⏪", "⏬", "⏫", "◀️", "🔼", "🔽", "➡️", "↖️", "↘️", "⬇️", "⬆️", "⬅️", "↪️", "↩️", "⤴️", "⤵️", "🔀", "🔁", "🔂", "🔄", "🔃"],
 "grassLayer" : ["sillyMiner", "🌹", "🟩"],
@@ -660,9 +661,9 @@ const layerList = {
 "vaLayer" : ["sillyMiner", '🇷🇺', '🇩🇪', '🇬🇧', '🇫🇷', '🇮🇹', '🇪🇸', '🇵🇱', '🇺🇦', '🇷🇴', '🇳🇱', '🇻🇦'],
 "srLayer" : ["sillyMiner", '🇧🇷', '🇨🇴', '🇦🇷', '🇵🇪', '🇻🇪', '🇨🇱', '🇪🇨', '🇧🇴', '🇵🇾', '🇺🇾', '🇸🇷'],
 "ocLayer" : ["sillyMiner", '🇦🇺', '🇵🇬', '🇳🇿', '🇫🇯', '🇸🇧', '🇫🇲', '🇻🇺', '🇵🇫', '🇳🇨', '🇼🇸', '🇹🇻'],
-"catcatLayer" : [ '🏳️‍⚧️', '🏁', '🇺🇳'],
+"catcatLayer" : [ '🏳️‍⚧️', '🏁', '🇺🇳'],//un layer
 "starLayer" : ["Koreosensei", "Panselinos", "txtfile", "cosmicIridium", "unstableCore", "pleiades", "australiumIngot", "stars"],
-"nebulaLayer" : ["Koreosensei", "noradrenaline", "Desolation", "otherside", "ascendedArtifact", "J1407b", "Charybdis", "nebula"]
+"nebulaLayer" : ["Koreosensei", "noradrenaline", "Desolation", "otherside", "ascendedArtifact", "J1407b", "Charybdis", "nebula","singularityEgg"]
 }
 const createdLayers = {
 
@@ -675,7 +676,7 @@ let waterWorldLayers = ["waterLayer"]
 let specialLayers = ["sillyLayer", "fluteLayer", "grassLayer", "dirtLayer2", "dirtLayer3", "barrierLayer", "borderLayer"]
 let allLayers = ["dirtLayer", "brickLayer", "foggyLayer", "waterLayer", "rockLayer", "radioactiveLayer", "cactusLayer", "paperLayer", "giftLayer"];
 
-let unbreakable = ["✖️","❔","⛏️"]
+let unbreakable = []
 //SETTING LAYERS
 const layerDictionary = {
     //{layer : [], num : 0}
@@ -705,7 +706,8 @@ const layerIndex = {
         3 : "globeLayer",
         4 : "chessLayer",
         5 : "borderLayer",
-        6 : "barrierLayer"
+        6 : "barrierLayer",
+        7 : "universeLayer"
     },
     subrealmOne : {
         0 : "scLayer",
@@ -822,6 +824,7 @@ function getLayer(y) {
         } else {
             if (y === 10000) return layerDictionary["barrierLayer"];
             else if (curY < 10000) return layerDictionary["chessLayer"];
+            else if (y > 20000) return 
             else return layerDictionary["borderLayer"];
         }
     } else if (currentWorld === 1.1) {
@@ -1155,6 +1158,11 @@ const limitedOres = {
         "layers" : ["cactusLayer"],
         "timeType" : "month",
         "timeValues" : [5, 6, 7]
+    },
+    "✈️": {
+        "layers" : ["cloudLayer"],
+        "timeType" : "month",
+        "timeValues" : [9]
     },
     "draedon": {
         "layers" : ["radioactiveLayer"],
